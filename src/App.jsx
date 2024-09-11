@@ -1,7 +1,7 @@
 import { useState } from 'react'; // Importando useState
 import Cabecalho from './components/Cabecalho';
 import Rodape from './components/Rodape';
-import Home from './components/Home/Home';
+import Home from './components/Home';
 
 function App() {
   const [count, setCount] = useState(0);

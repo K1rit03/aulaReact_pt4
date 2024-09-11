@@ -7,10 +7,25 @@ export const  HeaderCabecalho = styled.header`
     padding: 20px; 
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 
    h1{
       text-overflow: center;
       color: #fff;
+   }
+`
+
+export const FooterRodape = styled.footer`
+    width: 100%;
+    min-width: 5vh;
+    background-color: #227;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   p{
+    color: #fff;
+    text-align: center;
    }
 `

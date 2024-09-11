@@ -1,7 +1,9 @@
+import { FooterRodape } from "../styled"
+
 export default function Rodape(){
     return(
-        <footer>
-            <p>Av.Paulsita,1060 - Bela Vista</p>
-        </footer>
+        <FooterRodape>
+            <p>Av.Paulista,1060 - Bela Vista</p>
+        </FooterRodape>
     )
 }
