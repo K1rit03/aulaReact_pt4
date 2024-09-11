@@ -28,6 +28,18 @@ export const MainHome = styled.main`
     .secao5{
         grid-area: sec5;
     }
+
+
+    @media (max-width:768px){
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'sec1'
+    'sec2'
+    'sec3'
+    'sec4' 
+    'sec5'
+    ;
+    }
 `
 
 export const SectionGeral = styled.section`
